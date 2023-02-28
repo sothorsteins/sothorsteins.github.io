@@ -1,9 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" />
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1 class="title">Sara Ósk Þorsteinsdóttir</h1>
+            <p class="lang_is">Forritari hjá Treble Technologies</p>
+            <p class="lang_en">
+                Software Developer
+            </p>
+            <div class="language-option">
+                <button id="icelandic">IS</button>
+                <button id="english">EN</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="text">
+            <h4 class="lang_is">Hæ!</h4>
+            <h4 class="lang_en">Hey!</h4>
+            <p class="lang_is">
+                Ég er framendaforritari hjá sprotafyrirtækinu Treble Technologies.<br />
+                Ég útskrifaðist með B.Sc. í hugbúnaðarverkfræði frá Háskóla Íslands vorið 2021.
+                Meðfram námi tók ég að mér dæmatímakennslu, kenndi
+                forritunarsmiðjur fyrir börn og tók þátt í stúdentapólitík.
+            </p>
+            <p class="lang_is">
+                Síðastliðið ár hef ég tekið þátt í að þróa vefinn Icelandic Online Kids,
+                þar sem ég sá að stórum hluta um að sníða útlit síðunnar.
+            </p>
+            <p class="lang_en">
+                I am a software developer for Treble Technologies, 
+                a startup company in sound simulation. <br />
+                I graduated with a B.Sc. in software engineering in 2021 from the University of Iceland.
+                Alongside my studies, I was a TA in Computer Science I and
+                Calculus, I taught programming workshops to kids and I participated in
+                student politics. I also took part in developing the "Icelandic Online Kids" website 
+                with other students.
+            </p>
+        </div>
+        <div class="project-title">
+            <h3 class="lang_is">Verkefni</h3>
+            <h3 class="lang_en">Projects</h3>
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <a href="https://born.icelandiconline.com/">
+                    <img src="./img/iolkids.PNG" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>Icelandic Online Kids</h3>
+                    <p class="lang_is">
+                        Íslenskukennslusíða fyrir börn með annað móðurmál en íslensku.
+                        Verkefni unnið á vegum Háskóla Íslands.
+                    </p>
+                    <p class="lang_en">
+                        Interactive courses in Icelandic for non-Icelandic speaking
+                        children. The project has been developed at the University of
+                        Iceland.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="https://notendur.hi.is/~sot14/Game%20Programming/BubbleTrouble/">
+                    <img src="./img/bubbletrouble.PNG" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>Bubble Struggle </h3>
+                    <p class="lang_is">
+                        Eftirherma af Bubble Struggle.
+                        Verkefni í tölvuleikjaforritun.
+                    </p>
+                    <p class="lang_en">
+                        A remake of the game Bubble Struggle.
+                        School project in Game Programming at the University of Iceland.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <a href="https://do-too.herokuapp.com">
+                    <img src="./img/dotoo.PNG" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>DoToo Website</h3>
+                    <p class="lang_is">Hugbúnaðarverkefni I: Skipulagsvefsíða í Java Spring</p>
+                    <p class="lang_en">Software Project I: A website for organizing made in Java Spring</p>
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://github.com/KariSt1/DoToo-Android">
+                    <img src="./img/dotoo-mobile.png" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>DoToo App</h3>
+                    <p class="lang_is">Hugbúnaðarverkefni II: DoToo gert að Android appi</p>
+                    <p class="lang_en">Software Project II: DoToo made into an Android app</p>
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://ruv.herokuapp.com">
+                    <img src="./img/ruv.png" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>RÚV fréttir</h3>
+                    <p class="lang_is">Vefforritun 2: Fyrsta verkefnið í React</p>
+                    <p class="lang_en">Web Programming 2: The first React project</p>
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://notendur.hi.is/~sot14/tolvugrafik/Verkefni3/frogger.html">
+                    <img src="./img/frogger.PNG" class="img-responsive" />
+                </a>
+                <div class="project-summary">
+                    <h3>Frogger</h3>
+                    <p class="lang_is">Lokaverkefni í tölvugrafík vor 2020</p>
+                    <p class="lang_en">
+                        Final project in Computer Graphics Spring 2020
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr />
+    <footer>
+        <div class="email">
+            <span><i class="fa fa-envelope"></i></span>
+            <p>sothorsteins@gmail.com</p>
+        </div>
+        <div class="linkedIn">
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/sothorsteins/">linkedin.com/sothorsteins</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
 </html>

@@ -1,0 +1,9 @@
+{
+  "name": "sara-web-portfolio",
+  "version": "0.0.0",
+  "description": "SaraWebPortfolio",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
