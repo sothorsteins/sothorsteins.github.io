@@ -48,7 +48,7 @@ export const projects = [
             name: "DoToo",
             description: [
                 {
-                    text: "Final project in Computer Graphics Spring 2020"
+                    text: "Final project in Software Project class"
                 },
                 {
                    text: "", 
@@ -62,7 +62,7 @@ export const projects = [
             name: "RÚV Fréttir",
             description: [
                 {
-                    text: "Final project in Computer Graphics Spring 2020"
+                    text: "My first project using React."
                 },
                 {
                    text: "", 
@@ -109,10 +109,10 @@ export const SMCprojects = [
 
     {
         id: 3,
-        name: "Unity Simulation",
+        name: "Testing Selective Attention With Virtual Reality",
         description: [
             {
-                text: "Final project in Computer Graphics Spring 2020"
+                text: "Semester group project where we designed a VR experience that simulated hearing loss in a noisy environment, using eyetracking data in an attempt to find a relationship between selective attention and hearing loss."
             },
             {
                 text: "",
@@ -127,7 +127,7 @@ export const SMCprojects = [
         name: "Musical Rehabilitation Aid",
         description: [
             {
-                text: "Final project in Computer Graphics Spring 2020"
+                text: "Semester group project where we designed a prototype of musical rehabilitation aid with PoseNet, exploring three different sonification types."
             },
             {
                 text: "",
@@ -142,13 +142,13 @@ export const SMCprojects = [
         name: "String Simulator",
         description: [
             {
-                text: "Final project in Computer Graphics Spring 2020"
+                text: "Final project for Physical Modelling for Sound Synthesis class."
             },
             {
                 text: "",
             }
         ],
-        imgUrl: require("./img/ruv.png"),
+        imgUrl: require("./img/sara-180pt.png"),
         projectUrl: "",
         videoUrl: ""
     },
@@ -157,13 +157,13 @@ export const SMCprojects = [
         name: "HRTF Filter",
         description: [
             {
-                text: "Final project in Computer Graphics Spring 2020"
+                text: "Final project in Sound Processing"
             },
             {
                 text: "",
             }
         ],
-        imgUrl: require("./img/ruv.png"),
+        imgUrl: require("./img/sara-180pt.png"),
         projectUrl: "",
         videoUrl: ""
     },
@@ -172,13 +172,13 @@ export const SMCprojects = [
         name: "Study on Visual Imagery While Listening to Music",
         description: [
             {
-                text: "Final project in Computer Graphics Spring 2020"
+                text: "Final project for Music Perception and Cognition class"
             },
             {
                 text: "",
             }
         ],
-        imgUrl: require("./img/ruv.png"),
+        imgUrl: require("./img/sara-180pt.png"),
         projectUrl: "",
         videoUrl: ""
     }
